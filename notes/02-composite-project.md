@@ -24,13 +24,13 @@ packages/
     tests/
 ```
 
-This new `@shlack/utils` package will need a `package.json`, so let's create one
+This new `@david/utils` package will need a `package.json`, so let's create one
 
 ### [`packages/utils/package.json`](../packages/utils/package.json)
 
 ```json
 {
-  "name": "@shlack/utils",
+  "name": "@david/utils",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,7 +52,7 @@ This new `@shlack/utils` package will need a `package.json`, so let's create one
 }
 ```
 
-we'll need a `tsconfig.json` as well, and it'll be almost _exactly_ the same as the one for our `@shlack/types` package from the last step. Repetition is annoying (and an "out of sync" bug waiting to happen), so let's set up one _meaningful_ tsconfig, and extend from it in multiple places.
+we'll need a `tsconfig.json` as well, and it'll be almost _exactly_ the same as the one for our `@david/types` package from the last step. Repetition is annoying (and an "out of sync" bug waiting to happen), so let's set up one _meaningful_ tsconfig, and extend from it in multiple places.
 
 ### [`packages/tsconfig.settings.json`](../packages/tsconfig.settings.json)
 

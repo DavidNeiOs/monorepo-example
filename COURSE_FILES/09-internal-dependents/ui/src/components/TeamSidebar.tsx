@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IChannel, ITeam } from "@shlack/types";
+import { IChannel, ITeam } from "@david/types";
 import ChannelLink from "./TeamSidebar/ChannelLink";
 
 /**

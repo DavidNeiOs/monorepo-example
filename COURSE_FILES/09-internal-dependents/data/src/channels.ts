@@ -1,5 +1,5 @@
-import { IChannel, isChannel } from "@shlack/types";
-import { apiCall } from "@shlack/utils";
+import { IChannel, isChannel } from "@david/types";
+import { apiCall } from "@david/utils";
 
 const cachedChannelRecords: Record<string, Promise<IChannel>> = {};
 

@@ -65,7 +65,7 @@ packages/
     tests/
 ```
 
-[`types`](../packages/types) will become your first package: `@shlack/types`.
+[`types`](../packages/types) will become your first package: `@david/types`.
 
 It needs a `package.json`, so create one
 
@@ -73,7 +73,7 @@ It needs a `package.json`, so create one
 
 ```json
 {
-  "name": "@shlack/types",
+  "name": "@david/types",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -112,7 +112,7 @@ This is a TypeScript project, so you'll need a `tsconfig.json`
 }
 ```
 
-Finally run `yarn` to install and link dependencies, and then try to build the `@shlack/types` package from within its directory.
+Finally run `yarn` to install and link dependencies, and then try to build the `@david/types` package from within its directory.
 
 ```sh
 cd packages/types

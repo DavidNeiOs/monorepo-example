@@ -1,7 +1,7 @@
 import * as React from "react";
-import { getChannelMessages } from "@shlack/data";
-import { IChannel, IMessage } from "@shlack/types";
-import { useAsyncDataEffect } from "@shlack/utils";
+import { getChannelMessages } from "@david/data";
+import { IChannel, IMessage } from "@david/types";
+import { useAsyncDataEffect } from "@david/utils";
 import ChannelFooter from "./Channel/Footer";
 import ChannelHeader from "./Channel/Header";
 import ChannelMessage from "./Channel/Message";

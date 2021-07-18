@@ -7,7 +7,7 @@ const { setupAPI } = require("./api-server");
 const { join } = require("path");
 
 /**
- * Initialize an API server for shlack
+ * Initialize an API server for david
  *
  * @public
  * @param {e.Application} a express application
@@ -21,7 +21,7 @@ function initializeApiServer(a, dbFilePath) {
 }
 
 /**
- * Initialize a UI middleware for shlack
+ * Initialize a UI middleware for david
  *
  * @beta
  * @param {e.Application} a express application

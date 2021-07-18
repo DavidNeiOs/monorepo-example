@@ -5,12 +5,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.3 (2021-07-18)
 
-**Note:** Version bump only for package @shlack/utils
-
-
-
-
+**Note:** Version bump only for package @david/utils
 
 ## 0.0.2 (2021-07-18)
 
-**Note:** Version bump only for package @shlack/utils
+**Note:** Version bump only for package @david/utils

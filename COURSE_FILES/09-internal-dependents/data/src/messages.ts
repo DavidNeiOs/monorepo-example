@@ -1,5 +1,5 @@
-import { isMessage, isTypedArray, IMessage } from "@shlack/types";
-import { apiCall } from "@shlack/utils";
+import { isMessage, isTypedArray, IMessage } from "@david/types";
+import { apiCall } from "@david/utils";
 
 const cachedMessageRecordArrays: Record<string, Promise<IMessage[]>> = {};
 

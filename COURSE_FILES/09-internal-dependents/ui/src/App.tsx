@@ -5,9 +5,9 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import { getAllTeams } from "@shlack/data";
-import { ITeam } from "@shlack/types";
-import { useAsyncDataEffect } from "@shlack/utils";
+import { getAllTeams } from "@david/data";
+import { ITeam } from "@david/types";
+import { useAsyncDataEffect } from "@david/utils";
 import Loading from "./components/Loading";
 import SelectedTeam from "./components/SelectedTeam";
 import TeamSelector from "./components/TeamSelector";
